@@ -1,0 +1,21 @@
+{
+  "release-type": "rust",
+  "packages": {
+    "backend": {
+      "component": "backend"
+    }
+  },
+  "plugins": [
+    {
+      "type": "cargo-workspace",
+      "merge": false
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "my group",
+      "components": [
+        "backend"
+      ]
+    }
+  ]
+}
