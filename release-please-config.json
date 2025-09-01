@@ -2,7 +2,8 @@
   "release-type": "rust",
   "packages": {
     "backend": {
-      "component": "backend"
+      "component": "backend",
+      "release-type": "rust"
     }
   },
   "plugins": [
