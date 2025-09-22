@@ -18,6 +18,7 @@ jobs:
       - name: show gcc
         run: |
           which gcc
+          gcc --version
       - uses: googleapis/release-please-action@v4
         id: release
         with:
