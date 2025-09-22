@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: show gcc
+        run: |
+          which gcc
       - uses: googleapis/release-please-action@v4
         id: release
         with:
